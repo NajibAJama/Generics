@@ -10,7 +10,7 @@ namespace GenericsClassLibrary
     {
         void Add(T Obj);
         T Rmeove(T obj);
-        T F(T obj);
+        T Find(T obj); 
         IEnumerable<T> GetAll();
         
     }
